@@ -1,0 +1,23 @@
+<template>
+  <require from="app.css"></require>
+
+  <div id="app" class="container">
+    <div class="row">
+      <ul>
+        <li repeat.for="message of messages" transition="exapnd" class="message">
+          <img src.bind="message.url" height="50px" width="50px">
+          <span class="text">
+            ${message.text}
+          </span>
+
+          <span class="datetime u-pull-right">
+            ${message.datetime.toTimeString()}
+          </span>
+        </li>
+      </ul>
+    </div>
+    <div id="input" class="row">
+      <input class="u-full-width" autofocus="true" keypress.delegate="onKeyPress($event)" value.bind="newMessage">
+    </div>
+  </div>
+</template>
