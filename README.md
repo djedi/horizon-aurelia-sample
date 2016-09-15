@@ -6,6 +6,18 @@ This is the common [Horizon](http://horizon.io) chat app ported to [Aurelia](htt
 
 Make sure you have [RethinkDB installed](https://www.rethinkdb.com/docs/install/).
 
+Install horizon
+
+```shell
+npm install -g horizon
+```
+
+Install aurelia-cli
+
+```shell
+npm install -g  aurelia-cli
+```
+
 Install dependencies by running the `npm install` from the project root.
 
 Run the following command to start Horizon & Aurelia in dev mode:
