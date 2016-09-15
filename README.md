@@ -2,7 +2,7 @@
 
 This is the common [Horizon](http://horizon.io) chat app ported to [Aurelia](http://aurelia.io).
 
-## Running the app
+## Prerequisites
 
 Make sure you have [RethinkDB installed](https://www.rethinkdb.com/docs/install/).
 
@@ -17,6 +17,8 @@ Install aurelia-cli
 ```shell
 npm install -g  aurelia-cli
 ```
+
+## Running the app
 
 Install dependencies by running the `npm install` from the project root.
 
@@ -30,20 +32,6 @@ You should get a url in the console with the localhost URL to run the app.
 ## Starting your own Horizon + Aurelia app
 
 The following steps will help you get a project set up to start using Horizon & Aurelia together.
-
-Make sure you have [RethinkDB installed](https://www.rethinkdb.com/docs/install/).
-
-Install horizon
-
-```shell
-npm install -g horizon
-```
-
-Install aurelia-cli
-
-```shell
-npm install -g  aurelia-cli
-```
 
 Create a new aurelia app. (We'll assume it is named `app`)
 
